@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mini3:3306/test
+    # 使用阿里的Druid连接池
+
+mybatis:
+  type-aliases-package: com.example.entity
+  mapper-locations: classpath:mappers/*.xml
+
+
