@@ -15,7 +15,6 @@ public class UserController {
 
     @RequestMapping("get")
     public void getUserInfo(){
-
         UserEntity userInfo = userServiceImpl.getUserInfo();
         System.out.println(userInfo);
 
